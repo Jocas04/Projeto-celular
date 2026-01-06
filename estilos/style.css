@@ -30,20 +30,32 @@ position: relative;
     width: 311px;
     background: url(../imagens/frame-iphone.png);
 }
-iframe{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    height: 554px;
-    width: 311px;
-    border: none;
-    border-radius: 40px;
-}
 section#redes {
-    position: absolute;
     
-    display: block;
+    text-align: right;
     
+}
+.logo{
+    margin: 5px;
+ width: 80px;
+    height: 80px;
+   border: 1px black solid;
+   border-radius: 40px;
+}
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width:  269px;
+    height: 471px;
+    border: none;
+    
+}
+section#redes img{
+    box-shadow: 2px 2px 10px black;
+}
+section#redes img:hover{
+    border: 2px solid grey;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
 }
